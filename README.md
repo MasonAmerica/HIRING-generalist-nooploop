@@ -12,8 +12,9 @@ is pressed.
 
 For instance, a run of the program may look like this:
 
-```bash
+```
 nooploop
+
 Waiting for keypress
 (one second passes)
 Waiting for keypress
@@ -33,8 +34,9 @@ of seconds between pauses.
 
 For instance, a run of this enhanced program may look like this:
 
-```bash
+```
 nooploop -n 2
+
 Waiting for keypress
 (two seconds pass)
 Waiting for keypress
@@ -55,8 +57,9 @@ remaining (up to 2 decimal points of precision) before it would print `Waiting f
 
 For instance, a run of this enhanced program may look like this:
 
-```bash
+```
 nooploop -n 5
+
 Waiting for keypress
 (five seconds pass)
 :

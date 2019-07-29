@@ -47,6 +47,25 @@ Waiting for keypress
 Done.
 ```
 
+# Addon 2
+If you reach this stage, enhance your program to print out upon a keypress, the number of seconds
+remaining (up to 2 decimal points of precision) before it would print `Waiting for keypress` again.
+
+## Example
+
+For instance, a run of this enhanced program may look like this:
+
+```bash
+nooploop -n 5
+Waiting for keypress
+(five seconds pass)
+:
+:
+Waiting for keypress
+(just over one second passes)
+(user presses <Enter>)
+Done, with 3.89 seconds to go.
+```
 
 # Submission
 
@@ -65,6 +84,7 @@ You are to build a small program that can be run from the command line as descri
   * Python 2 or 3
   * Java
   * Kotlin
+  
   If you wish to use one of the languages not in this list, please chat with your interviewer first.
 * Do include a `NOTES.md` with any notes worth sharing such as build instructions, and if possible, any
   _significant_ resources used during development (StackOverflow questions, articles, sites, etc. 
